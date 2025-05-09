@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>T.A Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="download.webp" type="image/x-icon">
+</head>
+<body>
+  <div class="app">
+    <h1>Weather App</h1>
+    <h4>Tanzeel Ahmed</h4>
+    <div class="search">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="weatherResult" class="weather-card hidden">
+      <h2 id="cityName"></h2>
+      <p id="temp"></p>
+      <p id="description"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
